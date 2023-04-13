@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+body{
+    margin: 0%;
+    background-color: #24282a;
+}
+.tittle{
+   color: beige;
+   border-bottom: 2px solid beige;
+}
+.tittle h1{
+   margin-left: 40vw;
+}
+.Calculator{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 35%;
+    margin-top: 10%;
+    background-color: #424649;
+    box-shadow:inset 5px 3px 5px #797d82, inset -5px -3px 5px #24282a;
+    
+    
+}
+.Calculator__screen{
+    width: 25vw;
+    height: 5vh;
+    border: 1px solid black;
+    margin: 0.5vw;
+    padding: 1vw;
+    background-color: darkseagreen;
+    color: rgb(69, 89, 69);
+    
+    font-family: 'Keania One', cursive;
+    font-size: 2vw;
+
+}
+.Calculator__body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 26vw;
+    background-color: #5b6064;
+    /*height: 30vh;*/
+}
+.Calculator__numbers{
+    display: flex;
+    flex-direction: column;
+   width: 25vw;
+}
+.Calculator__Lines button{
+    width:3.8vw ;
+    height:5vh;
+    margin: 0.1vw;
+box-shadow: inset 3px 3px 2px grey;
+font-size: 1.8vw;
+}
+.Calculator__menu{
+    width: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+#Equal,#ca{
+    height:inherit;
+    width: 2.2vw;
+    justify-content: center;
+    padding: 1px;
+    box-shadow: inset 3px 3px 2px grey;
+    
+}
+#Equal{
+    background-color: chocolate;
+    box-shadow: inset 3px 3px 2px rgb(167, 83, 24);
+}
+#Equal:hover{
+    background-color: rgb(198, 98, 27);
+
+}
